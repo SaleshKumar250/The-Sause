@@ -1,0 +1,44 @@
+/* common class */
+
+.text-black{color: $color-black;}
+.text-pink{color: $color-pink}
+
+.bg-black{background-color: $color-black;}
+.bg-pink{background-color: $color-pink}
+.bg-gray{background-color: $color-gray}
+.bg-white{background-color: $color-white}
+
+.common-sec{
+	padding: 3rem 0;
+}
+.bg-image{
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.z-index1{
+	position: relative;
+	z-index: 1;
+} 
+
+.entry-title{
+	color: $color-red;
+}
+.osw{font-family: 'Oswald', sans-serif;}
+.p-large{
+	font-size: 1.3rem;
+	line-height: 2rem;
+}
+
+.common-btn{
+	font-size: 0.875rem;
+	text-transform: uppercase;
+	padding: 8px 1rem;
+	font-weight: 600;
+	background-color: $color-pink;;
+	color: $color-white;
+	border-radius: 3px;
+	&:hover,&:focus{
+		color: $color-white;
+		background-color: $color-black;
+	}
+}

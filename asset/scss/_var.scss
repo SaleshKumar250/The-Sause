@@ -1,0 +1,16 @@
+/* variables */
+
+$color-black: #252525;
+$color-pink: #9f5ba4;
+$color-dpink: #935497;
+$color-white: #fff;
+$color-gray: #eeeeee;
+$color-red: #E10100;
+
+
+@mixin box-shadow($shadow) {
+	-webkit-box-shadow: $shadow;
+	-moz-box-shadow: $shadow;
+	-ms-shadow: $shadow;
+	box-shadow: $shadow;
+}
