@@ -38,6 +38,9 @@ a:focus {
 img {
   max-width: 100%; }
 
+button {
+  transition: all 0.3s ease-out; }
+
 /* common class */
 .text-black {
   color: #252525; }
@@ -68,7 +71,8 @@ img {
   position: relative;
   z-index: 1; }
 
-.entry-title {
+.entry-title,
+.text-red {
   color: #E10100; }
 
 .osw {
@@ -83,7 +87,8 @@ img {
   text-transform: uppercase;
   padding: 8px 1rem;
   font-weight: 600;
-  background-color: #9f5ba4;
+  background-color: #E10100;
+  border: none;
   color: #fff;
   border-radius: 3px; }
   .common-btn:hover, .common-btn:focus {
@@ -159,64 +164,18 @@ img {
     font-weight: bold;
     font-size: 3rem; }
 
-.main-footer a {
-  color: #fff; }
-  .main-footer a:hover, .main-footer a:focus {
-    color: #9f5ba4; }
-.main-footer .widget-title {
-  margin-bottom: 2.5rem;
-  text-transform: uppercase; }
+.calculate-image-dv {
+  min-height: 400px; }
 
-.f-info {
-  align-items: center;
-  margin-bottom: 1.5rem;
-  align-items: flex-start; }
-  .f-info .icon {
-    height: 34px;
-    width: 34px;
-    text-align: center;
-    border-radius: 100%;
-    background-color: #9f5ba4;
-    border: 1px solid #9f5ba4;
-    margin-right: .5rem;
-    font-size: .875rem; }
-  .f-info .text {
-    width: calc(100% - 42px);
-    line-height: 1.5rem; }
-
-.footer-bx ul {
-  padding: 0;
-  margin: 0;
-  list-style: none; }
-  .footer-bx ul li {
-    margin-bottom: 0.5rem; }
-  .footer-bx ul a {
-    position: relative; }
-    .footer-bx ul a:before {
-      content: '';
-      position: absolute;
-      left: 0;
-      width: 0;
-      height: 2px;
-      top: 50%;
-      transform: translateY(-50%);
-      background-color: #9f5ba4;
-      opacity: 0;
-      transition: all 0.2s ease-in; }
-    .footer-bx ul a:hover, .footer-bx ul a:focus {
-      padding-left: 13px; }
-      .footer-bx ul a:hover:before, .footer-bx ul a:focus:before {
-        width: 10px;
-        opacity: 1; }
-.footer-bx .social-links a {
-  color: #fff; }
-
-.main-footer,
-.copyright-dv {
-  font-size: 0.875rem; }
-
-.copyright-dv {
-  border-top: 1px solid #888; }
+.form-bx .form-control {
+  border-radius: 0;
+  height: auto;
+  padding: 10px 15px;
+  background-color: #f1f1f1;
+  border: 1px solid #eeeeee; }
+  .form-bx .form-control:focus {
+    border: 1px solid #eeeeee;
+    box-shadow: none; }
 
 @media (min-width: 1600px) {
   .container {

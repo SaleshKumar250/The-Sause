@@ -1,0 +1,19 @@
+// calculator style
+
+.calculate-image-dv{
+	min-height: 400px;
+}
+
+.form-bx{
+	.form-control {
+		border-radius: 0;
+		height: auto;
+		padding: 10px 15px;
+		background-color: #f1f1f1;
+		border: 1px solid #eeeeee;
+		&:focus{
+			border: 1px solid #eeeeee;
+			box-shadow: none;		
+		}
+	}
+} 

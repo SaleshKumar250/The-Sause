@@ -20,7 +20,8 @@
 	z-index: 1;
 } 
 
-.entry-title{
+.entry-title,
+.text-red{
 	color: $color-red;
 }
 .osw{font-family: 'Oswald', sans-serif;}
@@ -34,7 +35,8 @@
 	text-transform: uppercase;
 	padding: 8px 1rem;
 	font-weight: 600;
-	background-color: $color-pink;;
+	background-color: $color-red;
+	border: none;
 	color: $color-white;
 	border-radius: 3px;
 	&:hover,&:focus{
