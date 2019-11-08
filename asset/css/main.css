@@ -41,6 +41,9 @@ img {
 button {
   transition: all 0.3s ease-out; }
 
+hr {
+  margin: 2rem 0; }
+
 /* common class */
 .text-black {
   color: #252525; }

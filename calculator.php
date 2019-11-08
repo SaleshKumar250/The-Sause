@@ -78,6 +78,20 @@
                   </div>
                 </form><!-- calculate-form -->
 
+                <hr>
+
+                <form id="email-form" action="" method="post">
+                  <div class="calculate-form-dv form-bx">
+                    <div class="form-group">
+                      <h3 class="text-red text-uppercase">Email</h3>
+                      <input type="email" class="form-control" id="">
+                    </div>
+                    <div class="submit">
+                      <button class="common-btn" type="submit">Send</button>
+                    </div>
+                  </div>
+                </form><!-- calculate-form -->
+
               </div><!-- entry-txt -->
             </div><!-- col -->
           </div><!-- row -->
